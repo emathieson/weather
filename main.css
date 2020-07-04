@@ -10,6 +10,7 @@ body {
     background-image: url('camp.jpg');
     background-size: cover;
     background-position: top center;
+    overflow-y: hidden;
 }
 
 .app-wrap {
@@ -130,7 +131,7 @@ main {
     align-items: center;
     margin-top: 20px;
     padding: 10px;
-    width: 100vw;
+    width: 100%;
 }
 
 .camping {
