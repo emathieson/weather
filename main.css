@@ -145,6 +145,13 @@ footer {
 
 /* RESPONSIVE CSS */
 @media only screen and (max-width: 640px) {
+
+    .app-wrap {
+        display: flex;
+        flex-direction: column;
+        min-height: 90vh;
+    }
+
     header {
         display: flex;
         justify-content: center;
@@ -258,6 +265,7 @@ footer {
         justify-content: center;
         align-items: center;
         padding: 10px 15px 15px;
+        margin: 0;
     }
     
     .camping {
