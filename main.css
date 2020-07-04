@@ -124,7 +124,7 @@ main {
     font-size: 14px;
 }
 
-footer {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,8 +145,11 @@ footer {
 
 /* RESPONSIVE CSS */
 @media only screen and (max-width: 640px) {
-    body {
-        overflow-y: hidden;
+
+    .app-wrap {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
     
     header {
@@ -178,7 +181,7 @@ footer {
     
     main {
         flex: 1 1 100%;
-        padding: 5px 15px 10px;
+        padding: 5px 15px 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -233,7 +236,7 @@ footer {
         background-color: rgba(54, 80, 85, 0.8);
         margin: 3px;
         width: 65px;
-        height: 170px;
+        height: 160px;
         border-radius: 12px;
         text-align: center;
         margin-bottom: 0px;
@@ -257,11 +260,12 @@ footer {
         font-size: 14px;
     }
     
-    footer {
+    .footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px 15px 15px;
+        margin-top: 20px;
+        width: 100vw;
     }
     
     .camping {
